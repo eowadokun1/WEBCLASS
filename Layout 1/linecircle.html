@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Line and circle centered on it</title>
+
+<style type="text/css">
+.container{
+  width: 100%;
+  height: 100vh;
+position: relative;
+background-color: black;
+
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.line{
+  width: 100%;
+  height: .1%;
+  background-color: skyblue;
+  position: absolute;
+  top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+.bigcontainer-div{
+  width: 100%;
+  height: 100vh;
+  background-color: skyblue;
+  position: relative;
+}
+
+.line1{
+  width: 2%;
+  height: 100%;
+  background-color: goldenrod;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.circle1{
+  width: 200px;
+  height: 200px;
+  /* background-color: goldenrod; */
+  position: absolute;
+  border-radius: 100%;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid goldenrod;
+
+}
+
+
+
+.line-div{
+  height: 50vh;
+  width: 100%;
+
+}
+.line-div hr{
+  width: 50%;
+  text-align: left;
+  margin-left: 0;
+  height: 30px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+  border-width: 50px;
+}
+
+
+</style>
+
+
+
+
+</head>
+<body>
+  
+<div class="container">
+
+<div class="circle"></div>
+<div class="line"></div>
+
+</div>
+<div class="bigcontainer-div">
+
+  <div class="line1"></div>
+  <div class="circle1"></div>
+
+</div>
+
+<div class="line-div">
+<hr>
+</div>
+
+
+</body>
+</html>

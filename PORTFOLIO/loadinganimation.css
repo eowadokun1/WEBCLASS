@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+}
+.ring{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  animation: ring 2s linear infinite;
+}
+
+@keyframes ring {
+  0%{
+    transform: rotate(0deg);
+    box-shadow: 1px 5px 2px #e65c00;
+  }
+  50%{
+    transform: rotate(180deg);
+    box-shadow: 1px 5px 2px #18b201;
+  }
+  100%{
+    transform: rotate(360deg);
+    box-shadow: 1px 5px 2px #0456c8;
+  }
+}
+
+.ring::before{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(255,255,255,.3);
+  border-radius: 50%;
+}
+
+
+span{
+  color: #737373;
+  z-index: 111;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 150px;
+  animation: text 3s ease-in-out infinite;
+}
+
+@keyframes text{
+  50%{
+    color: black;
+  }
+}
+
+.anothercenter{
+  min-height: 100vh;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.circle{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+  animation: circle 2s linear infinite;
+  background-color: transparent;
+}
+
+@keyframes circle{
+  0%{
+transform: rotate(0deg);
+  box-shadow: 1px 5px 2px red;
+  }
+   50%{
+transform: rotate(180deg);
+  box-shadow: 1px 5px 2px blue;
+  }
+   100%{
+transform: rotate(360deg);
+  box-shadow: 1px 5px 2px rgb(0, 255, 76);
+  }
+}
+
+.circle::before{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-shadow: 3px 3px 20px rgb(118, 114, 114);
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  content: '';
+
+}
+
+p{
+  color: white;
+  z-index: 111;
+  text-transform: uppercase;
+  text-shadow: 28px;
+  animation: text 3s ease-in-out infinite;
+  background-color: transparent;
+}
+@keyframes text{
+  50%{
+    color: yellow;
+  }
+}
+
+.letsdoanother{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.smallcircle{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+animation: smallcircle 5s linear infinite;
+
+}
+@keyframes smallcircle {
+  0%{
+    transform: rotate(0deg);
+    box-shadow: 1px 5px 2px #e65c00;
+  }
+  50%{
+    transform: rotate(180deg);
+    box-shadow: 1px 5px 2px #18b201;
+  }
+  100%{
+    transform: rotate(360deg);
+    box-shadow: 1px 5px 2px #0456c8;
+  }
+}
+.smallcircle::before{
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 10px rgba(255,255,255,.3);
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  
+
+}
+h1{
+  color: gainsboro;
+  z-index: 5;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-transform: capitalize;
+  animation: text 9s linear infinite;
+}
+
+@keyframes text{
+  0%{
+    color: #e65c00;
+    transform: rotate(0deg);
+  }
+  50%{
+    color: #79de6a;
+        transform: rotate(180deg);
+
+  }
+  100%{
+    color: #0456c8;
+    transform: rotate(360deg);
+
+  }
+}
+
+/* Start of bigcontainer-div */
+.bigcontainer-div{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.circle-div{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  animation: circle-div 2s linear infinite;
+
+}
+
+@keyframes circle-div{
+  0%{
+    transform: rotate(0deg);
+    box-shadow: 1px 5px 2px rgb(248, 68, 44);
+  }
+  50%{
+    transform: rotate(180deg);
+    box-shadow: 1px 5px 2px rgb(77, 14, 224);
+  }
+  100%{
+    transform: rotate(360deg);
+    box-shadow: 1px 5px 2px rgb(176, 253, 53);
+  }
+}
+
+.circle-div::before{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+box-shadow: 2px 2px 8px gray;
+border-radius: 50%;
+left: 0;
+top: 0;
+
+}
+
+.donate-div{
+  z-index: 1993;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: white;
+animation: donate-div 5s linear infinite;
+}
+
+@keyframes donate-div{
+  0%{
+    color: rgb(155, 149, 149);
+    transform: rotate(0deg);
+  }
+  50%{
+    color: #4718c8;
+    transform: rotate(180deg);
+  }
+  100%{
+    color: #b2015a;
+    transform: rotate(360deg);
+  }
+}

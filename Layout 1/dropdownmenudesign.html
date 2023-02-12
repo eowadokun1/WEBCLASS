@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop Down</title>
+    <style type="text/css">
+          * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+          body {
+            background:              url(images/laptop2.jpg);
+
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+          }
+
+          .header-div {
+          }
+          .nav-div {
+            background-color: rgb(103, 6, 77);
+            text-align: center;
+          }
+
+          .nav-div ul {
+            display: inline-flex;
+            list-style: none;
+            color: white;
+          }
+
+          .nav-div ul li {
+            width: 120px;
+            margin: 15px;
+            padding: 15px;
+          }
+
+          .nav-div ul li a {
+            text-decoration: none;
+            color: white;
+          }
+
+          .active,
+          .nav-div ul li:hover {
+            background-color: yellowgreen;
+            border-radius: 5px;
+          }
+
+          .sub-menu-1 {
+            display: none;
+          }
+
+          .nav-div ul li:hover .sub-menu-1 {
+            display: block;
+            position: absolute;
+            background-color: rebeccapurple;
+            margin-left: -15px;
+            margin-top: 15px;
+          }
+
+          .nav-div ul li:hover .sub-menu-1 ul {
+            display: block;
+            margin: 10px;
+          }
+          .nav-div ul li:hover .sub-menu-1 ul li {
+            width: 150px;
+            padding: 10px;
+            border-bottom: 1px dotted white;
+            background: transparent;
+            border-radius: 0px;
+            text-align: left;
+          }
+          .nav-div ul li:hover .sub-menu-1 ul li:last-child {
+            border-bottom: none;
+          }
+
+          .nav-div ul li:hover .sub-menu-1 ul li a:hover {
+            color: brown;
+          }
+
+          .sub-menu-2{
+            display: none;
+          }
+
+
+          .box:hover .sub-menu-2{
+            display: block;
+            position: absolute;
+            float: right;
+            background-color: aqua;
+            margin-top: -40px;
+      margin-left: 140px;
+          }
+
+                
+
+    </style>
+  </head>
+  <body>
+    <div class="nav-div">
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Investers</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li>
+          <a href="#">Training</a>
+          <div class="sub-menu-1">
+            <ul>
+              <li class="box">
+                <a href="#"> Computer</a>
+                <div class="sub-menu-2">
+                  <ul>
+                    <li class="box"><a href="#">SEO</a></li>
+                    <li><a href="#">Social Media</a></li>
+                    <li><a href="#">Email Marketing</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#"> Diploma</a></li>
+              <li><a href="#"> Web design</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

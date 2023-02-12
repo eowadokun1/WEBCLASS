@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown3</title>
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        background: url(images/laptop5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+min-height: 100vh;
+      }
+      .logonavlogo-div {
+        background-color: rgb(106, 5, 64);
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        position: relative;
+        padding: 10px 0;
+      }
+
+      .logo1-div {
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      }
+
+      .logo1-div span {
+        color: blue;
+      }
+
+      .nav-div ul {
+        display: flex;
+        list-style: none;
+      }
+
+      .nav-div ul li {
+        width: 120px;
+        padding: 10px;
+      }
+
+      .nav-div ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        transition: all 0.5s;
+      }
+      .nav-div ul li a:hover {
+        color: yellowgreen;
+      }
+
+      .logo2-div {
+        width: 60px;
+        height: 60px;
+        background: url(images/laptop2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-position: center;
+
+        border-radius: 60px;
+      }
+      .nav-div ul li:hover .good-day-messages-div {
+        display: block;
+        position: absolute;
+        top: 50px;
+        background-color: rgb(106, 5, 64);
+      }
+
+      .good-day-messages-div ul {
+        display: block;
+      }
+
+      .good-day-messages-div ul li {
+        width: 150px;
+        padding: 10px;
+        margin-top: 10px;
+        border-bottom: 1px dotted yellowgreen;
+      }
+
+      .good-day-messages-div ul li:nth-child(4) {
+        border-bottom: none;
+      }
+      .good-day-messages-div {
+        display: none;
+      }
+.good-day-messages-div ul li:hover .good-morning-div{
+  display: block;
+  position: absolute;
+        background-color: rgb(106, 5, 64);
+right: -150px;
+top: -0px;
+}
+.good-morning-div{
+  display: none;
+}
+
+.good-morning-div ul li:hover .good-bad-girlfriend-div{
+  display: block;
+  position: absolute;
+          background-color: rgb(106, 5, 64);
+right: -150px;
+top: -0px;
+}
+
+.good-bad-girlfriend-div{
+  display: none;
+}
+
+.logo2-div:hover .profile-div{
+  display: block;
+  position: absolute;
+          background-color: rgb(106, 5, 64);
+top: 80px;
+padding: 10px;
+list-style: none;
+font-size: 15px;
+text-transform: capitalize;
+
+
+}
+
+.logo2-div:hover .profile-div li {
+padding: 10px;
+
+}
+
+.logo2-div:hover .profile-div a{
+text-decoration: none;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+left: 20px;
+
+}
+
+
+.logo2-div:hover .profile-div a{
+
+
+}
+
+.profile-div{
+display: none;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="logonavlogo-div">
+      <div class="logo1-div">Owa <span> Special</span></div>
+      <div class="nav-div">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a>
+          
+          </li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blog</a></li>
+          <li>
+            <a href="#">Messages</a>
+            <div class="good-day-messages-div">
+              <ul>
+                <li><a href="#"> Good Morning</a>
+                <div class="good-morning-div">
+                  <ul>
+                    <li><a href="#"> For Girlfriend</a>
+                    <div class="good-bad-girlfriend-div">
+<ul>
+  <li><a href="#">Good Girlfriend</a></li>
+  <li><a href="#">Bad Girlfriend</a></li>
+</ul>
+
+                    </div>
+                    
+                    </li>
+                    <li><a href="#"> For Boyfriend</a></li>
+                    <li><a href="#"> For Father</a></li>
+                    <li><a href="#"> For Mother</a></li>
+                  </ul>
+                </div>
+                
+                </li>
+                <li><a href="#"> Good Day</a></li>
+                <li><a href="#"> Good Afternoon</a></li>
+                <li><a href="#"> Good Night</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="logo2-div">
+<div class="profile-div">
+     </li>
+                    <li><a href="#"> Profile</a></li>
+                    <li><a href="#"> What we Do</a></li>
+                    <li><a href="#"> Who we are</a></li>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

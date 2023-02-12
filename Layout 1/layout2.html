@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout 2</title>
+
+    <style type="text/css">
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #main-div {
+        width: 90%;
+        margin: auto;
+        
+      }
+
+      #logonav-div {
+        width: 100%;
+        min-height: 100px;
+        background-color: gray;
+        margin-bottom: 10px;
+      }
+
+      #logo {
+        width: 50%;
+        min-height: 100px;
+        background-color: lightgray;
+        float: left;
+        text-align: center;
+        line-height: 100px;
+      }
+
+      #nav-div {
+        width: 50%;
+        min-height: 100px;
+        background-color: lightgray;
+        float: right;
+        text-align: center;
+        line-height: 100px;
+      }
+
+      #headerbanner-div {
+        width: 100%;
+        min-height: 200px;
+        background-color: lightgray;
+        text-align: center;
+        line-height: 200px;
+        margin-bottom: 20px;
+      }
+
+      #threeboxcontainer-div {
+        width: 100%;
+        min-height: 400px;
+       
+        margin-bottom: 10px;
+      }
+
+      #box {
+        width: 25%;
+        background-color: lightgray;
+        text-align: center;
+        line-height: 400px;
+      }
+
+      #box:first-child {
+        width: 300px;
+        float: left;
+      }
+
+      #box:nth-child(2) {
+        width: 300px;
+        float: left;
+margin-left: 90px;
+
+
+      }
+
+
+  #box:nth-child(3) {
+        width: 300px;
+        float: right;
+
+      }
+
+
+   .clearfix::after {
+        content: "";
+        display: block;
+        clear: left;
+      }
+
+
+
+      #footer-div {
+        width: 100%;
+        min-height: 100px;
+        background-color: lightgray;
+        text-align: center;
+        line-height: 100px;
+      }
+
+     
+    </style>
+  </head>
+  <body>
+    <div id="main-div">
+      <div id="logonav-div">
+        <div id="logo">Logo</div>
+        <div id="nav-div">Navigation</div>
+      </div>
+
+      <div id="headerbanner-div">Header/Banner</div>
+
+      <div id="threeboxcontainer-div" class="clearfix">
+        <div id="box">Box1</div>
+        <div id="box">Box2</div>
+        <div id="box">Box3</div>
+      </div>
+      <footer id="footer-div">Footer</footer>
+    </div>
+  </body>
+</html>

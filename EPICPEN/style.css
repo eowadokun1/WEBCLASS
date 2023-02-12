@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  /* background-color: rgba(3, 4, 77, 0.581); */
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  min-height: 80px;
+  padding: 0 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 3;
+width: 100%;
+  position: fixed;
+}
+
+nav li .download {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.logo img {
+  width: 110px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin-top: 80px;
+}
+
+/* Beginning of Session 1 */
+
+.hero {
+  background-color: aqua;
+  min-height: 110vh;
+width: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.08)),
+    url(images/pexels\ emmy.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  color: #fff;
+}
+
+.small-container {
+  position: absolute;
+  top: 400px;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.small-container-h1 {
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+}
+
+.button {
+  background: #33afe1;
+  padding: 10px 20px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  border: 0;
+  /* color: #ffffff; */
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 3px;
+  text-align: center;
+  /* border: 2px solid #84ba3f; */
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+/* End of Session 1 */
+
+/* Beginning of Session 2 */
+
+.section2-container {
+width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 50px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #626262;
+  font-weight: 400;
+  background-color: white;
+}
+
+.how {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 550;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 2.5rem;
+  color: #363636;
+  font-family: "Montserrat", sans-serif;
+}
+
+.epic {
+  font-size: 24px;
+}
+
+/* End of Session 2 */
+
+/* Beginning of Session 3 */
+
+.section-3-banner {
+  display: flex;
+  min-height: 100vh;
+width: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.08)),
+    url(images/epicpen2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #626262;
+  text-align: left;
+  justify-content: space-evenly;
+  padding: 80px;
+}
+
+.section-3-banner .tools {
+  width: 1700px;
+  margin-right: 50px;
+}
+
+.section-3-banner .tool {
+  box-sizing: border-box;
+  font-size: 25px;
+  background-color: rgb(237, 231, 231);
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-3-banner .tool .p {
+  color: white;
+}
+
+.section-3-banner .epic2 {
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+/* End of Session 3 */
+
+/* Beginning of Session 4 */
+.section-4 {
+  min-height: 400px;
+  background-color: white;
+width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  padding: 70px;
+  row-gap: 3rem;
+  column-gap: 1rem;
+}
+
+
+
+.lebel {
+  background-color: white;
+  height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.lebel:first-child {
+  color: rgb(49, 48, 48);
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lebel:first-child .terrific {
+  font-size: 31px;
+  margin-bottom: 20px;
+}
+
+.lebel:nth-child(2) {
+}
+
+.lebel:nth-child(3) {
+}
+
+.lebel:nth-child(4) {
+  font-size: 23px;
+  color: rgb(60, 59, 59);
+
+  line-height: 35px;
+}
+
+.lebel:nth-child(4) h2 {
+  font-size: 35px;
+}
+
+.lebel:nth-child(5) {
+  font-size: 25px;
+  color: rgb(62, 62, 62);
+
+  line-height: 40px;
+}
+
+.lebel:nth-child(6) {
+}
+
+/* End of Session 4 */
+
+/* Start of Session 5 */
+.session-5 {
+  height: 80vh;
+width: 100%;
+  background: linear-gradient(
+      to right,
+      rgba(2, 1, 1, 0.864),
+      rgba(44, 42, 42, 0.481)
+    ),
+    url(images/epic7.jpg);
+  background-position: center;
+  background-size: cover;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  column-gap: 2em;
+  background-attachment: fixed;
+}
+
+.annotate {
+  color: white;
+  height: 320px;
+  width: 700px;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.annotate:first-child {
+  padding-left: 3em;
+}
+
+.annotate h2 {
+  font-size: 40px;
+}
+/* End of Session 5 */
+
+/* Start of Session 6 */
+
+.section-6 {
+  background-color: #33afe1;
+  min-height: 170px;
+width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.best {
+  box-sizing: border-box;
+  /* border: 5px solid yellow; */
+  height: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+
+.best:first-child {
+  width: 730px;
+  padding-top: 40px;
+}
+
+.best:nth-child(2) {
+  padding-top: 40px;
+}
+
+.best:nth-child(2) a {
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-color: 2px solid white;
+  font-size: 20px;
+  color: white;
+  padding-left: 60px;
+}
+/* End of Session 6 */
+
+/* Start of Session 7 */
+.section-7 {
+  min-height: 120vh;
+width: 100%;
+  background-color: white;
+  padding: 6% 4%;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-7 .flex-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.section-7 .flex-container .box {
+  /* background-color: #363636; */
+  padding: 2rem;
+  border-top: 8px solid rgb(3, 3, 3);
+  border-radius: 8px;
+  background-color: white;
+  line-height: 3rem;
+  box-shadow: 5px 5px 30px rgb(242, 237, 237);
+  width: 300px;
+}
+
+.section-7 .flex-container .box h1 {
+  color: #33afe1;
+  text-transform: capitalize;
+  font-size: 42px;
+  font-style: italic;
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+}
+
+.section-7 .flex-container .box p {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  margin-bottom: 10px;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.section-7 .flex-container .box h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: rgb(13, 12, 12);
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.section-7 .flex-container .box .pricing-button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #33afe1;
+  padding: 6px 10px;
+  border-radius: 3px;
+  color: white;
+  font-size: 10px;
+  display: inline-block;
+  font-weight: 500;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  width: 140px;
+}
+
+.section-7 .flex-container .box ul li {
+  margin-top: 20px;
+  font-style: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-7 .box:nth-child(2) h2 {
+  text-transform: lowercase;
+  margin: 0;
+}
+
+.section-7 .box:nth-child(2) p {
+  font-size: 12px;
+}
+
+.section-7 .box:nth-child(2) .pricing-button p {
+  font-size: 10px;
+  text-transform: lowercase;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+.section-7 .box:nth-child(3) p {
+  font-size: 10px;
+}
+
+.section-7 .box:nth-child(2) div a {
+  background-color: #33afe1;
+  text-decoration: none;
+  color: white;
+  padding: 12px 12px;
+  font-size: 24px;
+  cursor: pointer;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-7 .box:nth-child(3) div a {
+  background-color: #33afe1;
+  text-decoration: none;
+  color: white;
+  padding: 12px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.section-7 .box:nth-child(3) div a:hover {
+  background-color: rgb(1, 1, 62);
+  color: white;
+}
+
+.section-7 .box:first-child div a:hover {
+  background-color: rgb(1, 1, 62);
+  color: white;
+}
+
+.section-7 .box:nth-child(2) div a:hover {
+  background-color: rgb(1, 1, 62);
+  color: white;
+}
+
+.section-7 .box:first-child {
+  height: 80%;
+}
+
+.section-7 .box:nth-child(3) {
+  height: 30%;
+}
+
+.section-7 .box:nth-child(2) {
+  border-top: 15px solid #81b6ef;
+}
+
+/* End of Session 7 */
+
+/* Beginning of Footer */
+.footer {
+  min-height: 170px;
+width: 100%;
+  background-color: rgb(24, 23, 23);
+  color: gray;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 6rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 30rem;
+}
+
+.footer .tank {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.footer a {
+  color: #33afe1;
+}
+
+.footer-social {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-social ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.footer-social ul li {
+  /* background-color: red; */
+  padding-right: 20px;
+  border-right: 2px solid gray;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: gray;
+}
+
+.list-inline-item:nth-child(4) {
+  border-right: none;
+}
+
+.icons {
+  display: flex;
+  justify-content: end;
+  gap: 3rem;
+  margin-top: 25px;
+  list-style-type: none;
+  margin-right: 1.5rem;
+}
+
+/* End of Footer */

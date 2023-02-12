@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  min-height: 150vh;
+  min-width: 100vw;
+  padding: 6% 4%;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(249, 248, 248);
+}
+
+section div h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  padding-top: 6rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.test {
+  text-transform: capitalize;
+  background-color: white;
+  border-top: 8px solid black;
+  border-radius: 10px;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  line-height: 4rem;
+  box-shadow: 2px 0 30px 5px blue;
+}
+
+section div h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(10, 189, 224);
+  font-style: italic;
+  font-size: 30px;
+}
+
+section div p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+section div h3 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+}
+
+section div a {
+  text-decoration: none;
+  background-color: rgb(41, 178, 223);
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 18px;
+  margin-top: 1rem;
+}
+
+section div ul {
+  font-weight: 600;
+}

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url(images/laptop4.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  background-color: rgb(4, 114, 56);
+  text-align: center;
+}
+
+.header ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+
+.header ul li{
+  width: 130px;
+  margin: 15px;
+  padding: 15px;
+}
+
+
+.header ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.header .fa-solid{
+  margin-right: 15px;
+}
+
+.active, #header ul li:hover{
+  background-color: rgb(254, 182, 58);
+  border-radius: 2%;
+
+}
+
+
+/* Start of Sub Menu 1 */
+.sub-menu-div{
+  display: none;
+}
+
+
+.header ul li:hover .sub-menu-div{
+  display: block;
+  position: absolute;
+  background-color: green;
+  margin-top: 15px;
+  margin-left: -15px;
+
+}
+
+.header ul li:hover .sub-menu-div ul{
+display: block;
+margin: 10px;
+
+
+}
+
+.header ul li:hover .sub-menu-div ul li{
+  border-bottom: 2px dotted white;
+}
+
+
+.header ul li:hover .sub-menu-div ul li:nth-child(3){
+  border-bottom: none;
+}
+
+.header ul li:hover .sub-menu-div ul li a{
+  float: center;
+}
+
+.header ul li:hover .sub-menu-div ul li a:hover{
+  color: rebeccapurple;
+}
+
+/* End of Sub Menu 1 */
+
+/* Start of Sub Menu 2 */
+.sub-menu2-div{
+  display: none;
+}
+
+
+.header ul li:hover .sub-menu2-div{
+  display: block;
+  position: absolute;
+  background-color: green;
+  margin-top: 15px;
+  margin-left: -15px;
+
+}
+
+.header ul li:hover .sub-menu2-div ul{
+display: block;
+margin: 10px;
+
+
+}
+
+.header ul li:hover .sub-menu2-div ul li{
+  border-bottom: 2px dotted white;
+  width: 180px;
+}
+
+
+.header ul li:hover .sub-menu2-div ul li:nth-child(3){
+  border-bottom: none;
+}
+
+.fa-angle-right{
+  float: right;
+}
+
+.header ul li:hover .sub-menu2-div ul li a:hover{
+  color: rebeccapurple;
+}
+
+/* End of Sub Menu 2 */
+/* Start of Sub Menu 3 */
+
+.sub-menu-3{
+  display: none;
+}
+
+.box:hover .sub-menu-3{
+  position: absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 140px;
+  background: rgb(0, 100, 0);
+float: right;
+
+}

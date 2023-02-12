@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout 4</title>
+
+    <style type="text/css">
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      #parentcontainer-div {
+        width: 100%;
+        min-height: 100vh;
+        background-color: black;
+        /* position: relative; */
+
+
+      }
+
+      #childcontainer-div {
+        width: 400px;
+        height: 400px;
+        background-color: gold;
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+      }
+
+.grid{
+  display: inline-block;
+
+}
+
+.grid img{
+  vertical-align: middle;
+}
+      
+    </style>
+  </head>
+  <body>
+    <article id="parentcontainer-div">
+      <div id="childcontainer-div"></div>
+
+    </article>
+<div class="grid"> 
+  <img src="http://placebacn.com/200/400"> 
+  <h2>grilled bacon</h2> 
+</div> 
+<div class="grid"> 
+  <img src="http://placebacn.com/200/300"> 
+  <h2>tasty bacon</h2> 
+</div> 
+<div class="grid"> 
+  <img src="http://placebacn.com/200/200"> 
+  <h2>crispy bacon</h2> 
+</div> 
+<div class="grid"> 
+  <img src="http://placebacn.com/200/350"> 
+  <h2>bacon</h2> 
+</div>
+
+
+
+  </body>
+</html>

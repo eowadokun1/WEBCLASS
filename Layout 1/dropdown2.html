@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown2</title>
+        <script src="https://kit.fontawesome.com/fac1f18e6b.js" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+            *{
+              padding: 0;
+              margin: 0;
+              box-sizing: border-box;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+      body{
+        background: url(images/laptop3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        width: 100%;
+      }
+            .menu-div {
+              background-color: #5c0b1b;
+              text-align: center;
+            }
+
+            .menu-div ul {
+              display: inline-flex;
+
+            }
+
+            .menu-div ul li{
+              list-style: none;
+              width: 130px;
+              padding: 20px;
+              margin: 20px;
+
+            }
+
+.fa-solid{
+float: left;
+color: lightsalmon;
+
+}
+            
+      .menu-div ul li a{
+      text-decoration: none;
+      color: white;
+      }
+            .constant, .menu-div ul li:hover{
+            background-color: rgb(162, 240, 7);
+            border-radius: 5px;
+            opacity: 0.8 0.15s;
+            cursor: pointer;
+
+      }
+
+            .menu-div ul li a:hover{
+            color: #5c0b1b;
+
+            }
+
+            .client-div{
+              display: none;
+            }
+
+
+            .menu-div ul li:hover .client-div{
+      display: block;
+      position: absolute;
+      background-color: #5c0b1b;
+      margin-left: -20px;
+      margin-top: 20px;
+                  }
+
+      .menu-div ul li:hover .client-div ul{
+      display: block;
+            }
+
+          .menu-div ul li:hover .client-div ul li{
+                  background-color: transparent;
+              text-align: left;
+     border-bottom: 1px dotted white;
+margin: 0;
+width: 200px;
+}
+
+    .menu-div ul li:nth-child(8) .client-div ul li{
+                  background-color: transparent;
+              text-align: left;
+     border-bottom: 1px dotted white;
+margin: 0;
+width: 150px;
+color: white;
+}
+
+.Good-sub-menu{
+display: none;
+
+}
+
+.menu-div ul li:nth-child(4):hover .olaniyi:hover .Good-sub-menu {
+display: block;
+position: absolute;
+background-color: #5c0b1b;
+top: 0;
+right: -135px;
+}
+
+
+
+        
+
+
+
+
+                    .menu-div ul li:hover .client-div ul li:last-child{
+                      border-bottom: none;
+                    }
+
+                    .menu-div ul li:hover .client-div ul li a:hover{
+                      color: rgb(162, 240, 7);
+
+                    }
+
+
+footer{
+  background-color: #5c0b1b;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  letter-spacing: 0.1rem;
+}
+
+.baddest:hover .Good-sub-menu{
+    position: absolute;
+
+  display: block;
+  background-color: #5c0b1b;
+
+}
+
+
+
+
+</style>
+  </head>
+  <body>
+    <div class="menu-div">
+      <ul>
+        <li class="constant"><i class="fa-solid fa-house-user"></i><a href="#"> Home</a></li>
+        <li><i class="fa-sharp fa-solid fa-address-card"></i><a href="#"> About Us</a>
+        <div class="client-div">
+            <ul>
+              <li><a href="#">Good Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Bad Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Average Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><i class="fa-solid fa-train"></i><a href="#">Training</a>
+        <div class="client-div">
+            <ul>
+              <li><a href="#">Good Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Bad Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Average Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="service"><i class="fa-solid fa-money-bill-transfer"></i><a href="#">Service</a>
+        <div class="client-div">
+            <ul>
+              <li class="olaniyi"><a href="#">Good Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a>
+              <div class="Good-sub-menu">
+<ul>
+  <li><a href="#">Romantic</a></li>
+  <li><a href="#">So sweet</a></li>
+  <li><a href="#">Lovely</a></li>
+  <li><a href="#">Kind</a></li>
+  <li><a href="#">Caring</a></li>
+</ul>
+
+              </div>
+              
+              </li>
+              <li class="baddest"><a href="#">Bad Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a>
+              <div class="Good-sub-menu">
+<ul>
+  <li><a href="#">Romantic</a></li>
+  <li><a href="#">So sweet</a></li>
+  <li><a href="#">Lovely</a></li>
+  <li><a href="#">Kind</a></li>
+  <li><a href="#">Caring</a></li>
+</ul>
+
+              </div>
+              
+              
+              </li>
+              <li><a href="#">Average Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><i class="fa-solid fa-hand-holding-dollar"></i><a href="#">Pricing</a>
+        <div class="client-div">
+            <ul>
+              <li><a href="#">Good Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Bad Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Average Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><i class="fa-solid fa-mug-hot"></i>          <a href="#">Client</a>
+          <div class="client-div">
+            <ul>
+              <li><a href="#">Good Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Bad Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Average Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><i class="fa-solid fa-truck-moving"></i><a href="#">Investers</a>
+        <div class="client-div">
+            <ul>
+              <li><a href="#">Good Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Bad Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Average Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><i class="fa-solid fa-file-signature"></i><a href="#">Contact</a>
+        <div class="client-div">
+            <ul>
+              <li><a href="#">Good Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Bad Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+              <li><a href="#">Average Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+<footer>
+&copy;Owa-Special Computers 2023
+
+</footer>
+
+  </body>
+</html>

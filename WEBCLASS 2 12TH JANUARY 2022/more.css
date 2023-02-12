@@ -1,0 +1,54 @@
+/* *{
+  color: red;
+
+} */
+
+.container {
+  background-color: gray;
+  padding: 100px;
+  margin: 50px;
+  color: red;
+  /* text-align: right;   */
+}
+
+.child,
+.children {
+  background-color: aquamarine;
+  padding: 50px 200px 30px 300px;
+  margin: 20px;
+}
+
+.container h1{
+color: green;
+}
+
+/* .container p {
+  color: blue;
+} */
+
+.container > * {
+  color: blue;
+}
+
+.container > p {
+  color: pink;
+}
+
+.container > h1 {
+  color: black;
+}
+
+img{
+  width: 200px;
+  height: auto;
+}
+
+.banner{
+  height: 100vh;
+  background-color: peachpuff;
+  margin: 50px 0;
+  background-image: url(images.html/gut\ health.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
